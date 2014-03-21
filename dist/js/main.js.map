@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js.map","sources":["main.js"],"names":["navigator","userAgent","match","msViewportStyle","document","createElement","appendChild","createTextNode","querySelector"],"mappings":"AAGA,GAAIA,UAAUC,UAAUC,MAAM,mBAAoB,CAC9C,GAAIC,iBAAkBC,SAASC,cAAc,QAC7CF,iBAAgBG,YACZF,SAASG,eACL,wCAGRH,SAASI,cAAc,QAAQF,YAAYH"}
