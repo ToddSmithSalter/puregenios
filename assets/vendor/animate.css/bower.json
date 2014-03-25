@@ -1,0 +1,14 @@
+{
+  "name": "animate.css",
+  "version": "3.1.0",
+  "main": "./animate.css",
+  "gitHead": "d32b3c5df99ac3448aea8f899f44f0923665a374",
+  "readme": "#Animate.css\n*Just-add-water CSS animation*\n\n`animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.\n\n##Usage\nTo use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!\n\n```html\n<head>\n\t<link rel=\"stylesheet\" href=\"animate.min.css\">\n</head>\n```\n\nYou can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:\n\n```javascript\n$('#yourElement').addClass('animated bounceOutLeft');\n```\n\nYou can also detect when an animation ends:\n\n```javascript\n$('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething());\n```\n\nYou can change the duration of your animations, add a delay or change the number of times that it plays:\n\n```css\n#yourElement {\n\t-vendor-animation-duration: 3s;\n\t-vendor-animation-delay: 2s;\n\t-vendor-animation-iteration-count: infinite;\n}\n```\n\n*Note: be sure to replace \"vendor\" in the CSS with the applicable vendor prefixes (webkit, moz, etc)*\n\n## Custom Builds\nAnimate.css is powered by [Grunt](http://gruntjs.com), and you can create custom builds pretty easily. First of all, you’ll need Grunt and all other dependencies:\n\n```sh\n$ cd path/to/animate.css/\n$ sudo npm install\n```\n\nNext, run `grunt watch` to watch for changes and compile your custom builds. For example, if you want only some of the the “attention seekers”, simply edit the `.animate-config.json` file to select only the animations you want to use.\n\n```javascript\n\"attention_seekers\": {\n  \"bounce\": true,\n  \"flash\": false,\n  \"pulse\": false,\n  \"shake\": true,\n  \"swing\": true,\n  \"tada\": true,\n  \"wobble\": true\n}\n```\n\n## License\nAnimate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)\n\n## Contributing\nPull requests are the way to go here. I apologise in advance for the slow action on pull requests and issues. I only have two rules for submitting a pull request: match the naming convention (camelCase, categorised [fades, bounces, etc]) and let us see a demo of submitted animations in a [pen](http://codepen.io). That last one is important.\n",
+  "readmeFilename": "README.md",
+  "_id": "animate.css@3.0.0",
+  "description": "*Just-add-water CSS animation*",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daneden/animate.css.git"
+  }
+}

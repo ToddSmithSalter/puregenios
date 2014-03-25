@@ -33,7 +33,7 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('./dist/css'));
     gulp.src(paths.styles.src)
         .pipe(sass({sourceComments: 'map', errLogToConsole: true}))
-        .pipe(prefix("last 2 versions", "ie 8"))
+        .pipe(prefix("last 3 versions", "ie 8"))
         .pipe(minifycss())
         .pipe(gulp.dest(paths.styles.dest))
         .pipe(notify("Stylesheets rebuilt!"))
